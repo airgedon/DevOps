@@ -39,6 +39,10 @@ cd [directory]
 ```
 cd /home/username/Desktop
 ```
+<p align="center">
+<img src="https://media.giphy.com/media/qlqYA5i1vBSf3lVJbV/giphy.gif">
+</p>
+
 Или вы можете получить к нему доступ следующим образом.
 ```
 cd Desktop
