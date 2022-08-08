@@ -122,7 +122,7 @@ cp filename filename
 cp ball ball1
 ```
 Cp создал файл с именем ball 1 и скопировал его содержимое в ball1.
----
+___
 Для копирования каталогов мы используем «-r» в дополнение к cp. Это означает «recursive». Синтаксис для этого:
 ```
 cp -r [directory] [directory]
