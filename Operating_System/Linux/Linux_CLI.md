@@ -47,9 +47,9 @@ cd /home/username/Desktop
 ```
 cd Desktop
 ```
-<p align="center">
+<!-- <p align="center">
 <img src="https://media.giphy.com/media/MG13sybkVlvX8xeEWd/giphy.gif">
-</p>
+</p> -->
 
 Чтобы перейти в домашний каталог, используйте эту команду:
 ```
@@ -81,6 +81,10 @@ ls -a
 ```
 ls -l
 ```
+<p align="center">
+<img src="https://media.giphy.com/media/JaCQaBaD0GjD4hzqO6/giphy.gif">
+</p>
+
 Чтобы просмотреть файлы, упорядоченные по времени модификации, введите следующее.
 ```
 ls -lt
