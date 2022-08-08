@@ -19,7 +19,9 @@
 ```
 pwd
 ```
+<p align="center">
 <img src="https://media.giphy.com/media/qcDPIAH0BopOrUBGv8/giphy.gif">
+</p>
 
 <!-- Вы должны получить свой каталог на выходе. -->
 
