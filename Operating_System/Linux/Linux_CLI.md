@@ -47,6 +47,10 @@ cd /home/username/Desktop
 ```
 cd Desktop
 ```
+<p align="center">
+<img src="https://media.giphy.com/media/qlqYA5i1vBSf3lVJbV/giphy.gif">
+</p>
+
 Чтобы перейти в домашний каталог, используйте эту команду:
 ```
 cd ~
