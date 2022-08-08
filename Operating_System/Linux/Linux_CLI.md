@@ -1,5 +1,9 @@
 # Linux CLI
+
+<p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?color=3CBD3A&width=380&height=45&lines=Linux+Command+Line+Interface&center=true"></a>
+</p>
+
 - Перемещение в терминале: cd, ls, pwd...
 - Работа с файлами: touch, cp, mv, rm, mkdir...
 - Работа с текстом: vim, nano... awk, sed, grep, cat, wc...
