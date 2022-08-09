@@ -100,7 +100,7 @@ mkdir directory name
 ```
 mkdir fruits
 ```
-
+> :warning: Используйте **sudo** перед началом строки чтобы запустить команду от имени root пользователя
 <p align="center">
 <img src="https://media.giphy.com/media/0dMMDeMzIjZFqHxLW8/giphy.gif">
 </p>
