@@ -145,6 +145,10 @@ mv file name directory
 ```
 mv tomato vegetables
 ```
+<p align="center">
+<img src="https://media.giphy.com/media/qD4uFkofexSEXSlpI2/giphy.gif">
+</p>
+
 Если вы хотите переместить файл «ball» в свой домашний каталог, используйте клавишу «.» оператор в конце.
 ```
 mv vegetables/tomato .
