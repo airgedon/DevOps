@@ -201,7 +201,8 @@ awk '$3 <  40 { print $0 }' information.txt
 ---
 В выводе представлена информация о людях моложе 40.
 
-## Команда «sed»
+## :bulb: Команда «grep»
+[source](https://wiki.merionet.ru/servernye-resheniya/39/rukovodstvo-po-komande-grep-v-linux/)
 
 
 
