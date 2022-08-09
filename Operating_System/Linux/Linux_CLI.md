@@ -133,7 +133,7 @@ touch banana apple
 
 Вы также можете сделать это, используя абсолютный адрес.
 ```
-touch home/username/cherry /home/username/Avocado
+touch home/username/cherry /home/username/avocado
 ```
 Мы можем использовать команду touch для создания файлов в любом каталоге, если мы используем их абсолютные адреса.
 ## Команда mv
@@ -149,7 +149,7 @@ mv tomato vegetables
 <img src="https://media.giphy.com/media/qD4uFkofexSEXSlpI2/giphy.gif">
 </p>
 
-Если вы хотите переместить файл «ball» в свой домашний каталог, используйте клавишу «.» оператор в конце.
+Если вы хотите переместить файл «tomato» в свой домашний каталог, используйте клавишу «.» оператор в конце.
 ```
 mv vegetables/tomato .
 ```
@@ -163,7 +163,7 @@ cp filename filename
 ```
 cp avocado avocado01
 ```
-Cp создал файл с именем avocado и скопировал его содержимое в avocado01.
+Cp создал файл с именем avocado01 и скопировал содержимое файла avocado в файл avocado01.
 ___
 Для копирования каталогов мы используем «-r» в дополнение к cp. Это означает «recursive». Синтаксис для этого:
 ```
