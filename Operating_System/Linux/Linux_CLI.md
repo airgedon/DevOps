@@ -109,6 +109,10 @@ mkdir fruits
 ```
 mkdir -p /fruits/apple
 ```
+<p align="center">
+<img src="https://media.giphy.com/media/NgMVWiuO7vFdgQWpkS/giphy.gif">
+</p>
+
 ## Команда «touch»
 > Вы научились делать каталог. Теперь пора узнать, как мы можем создавать файлы внутри каталога. Поднимите команду touch. Синтаксис сенсорного ввода приведен ниже.
 ```
