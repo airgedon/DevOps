@@ -169,6 +169,10 @@ ___
 ```
 cp -r [directory] [directory]
 ```
+<p align="center">
+<img src="https://media.giphy.com/media/RFqfEmZy4L35pNq6Ns/giphy.gif">
+</p>
+
 ## Команды rm и rmdir
 Мы используем команды rm и rmdir для удаления файлов и каталогов соответственно. Синтаксис этих двух команд следующий.
 ```
