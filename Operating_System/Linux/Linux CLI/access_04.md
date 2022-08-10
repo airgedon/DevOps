@@ -132,6 +132,25 @@ sudo chown -R userName:groupName /home/sysadmin/fruits/
   	<tr> 
      <td>rwxrwxrwx</td>
      <td>777</td> 
-     <td colspan ="3">читают, записывают, выполняют все</td> 
+     <td colspan ="3">    читают, записывают, выполняют все</td> 
+   	</tr > 
+	 <tr> 
+     <td>rwxr-xr-x</td>
+     <td>755</td> 
+     <td>  читает, записывает, выполняет</td> 
+     <td colspan ="2">читать и запускать</td>
+   	</tr > 
+		 <tr> 
+     <td>rw-r—r—</td>
+     <td>644</td> 
+     <td>чтение и запись</td> 
+     <td colspan ="2">только четние</td>
+   	</tr > 
+	 <tr> 
+     <td>r— — —</td>
+     <td>400</td> 
+     <td>читает только владец</td> 
+     <td>—</td>
+     <td>—</td>
    	</tr > 
 </table>
