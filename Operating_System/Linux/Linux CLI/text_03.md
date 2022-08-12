@@ -169,13 +169,13 @@ awk '! /g$/' avocado.txt
 
 К примеру, если нас интересуют слова, содержащие io, мы пишем:
 ```
-awk ' /io/{print $0}' avocado.txt
+awk ' /med/{print $0}' avocado.txt
 ```
 
 <p align="center">
 <img src="https://media.giphy.com/media/xYkXkMHWujs2N7OppC/giphy.gif">
 
-Мы получили строки, в которых содержатся слова, содержащие io.
+Мы получили строки, в которых содержатся слова, содержащие med.
 > Теперь предположим, что в файле есть дополнительный столбец LOCATION:
 
 <p align="center" width="100%">
