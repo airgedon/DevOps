@@ -337,13 +337,11 @@ w -c avocado.txt
 ```
 w -m avocado.txt
 ```
----
-<!-- 
 
 <p align="center">
-<img src="">
-</p> -->
----
+<img src="https://media.giphy.com/media/FmDIf699oRmhWLaexL/giphy.gif">
+</p> 
+
 4. Длина отображения самой длинной строки файла
 
 > :mag_right: Параметр «L» команды wc отображает длину (количество символов) самой длинной строки файла.
@@ -359,13 +357,11 @@ wc -l avocado.txt
 ```
 wc -l avocado.txt apple.txt
 ```
----
-<!-- 
 
 <p align="center">
-<img src="">
-</p> -->
----
+<img src="https://media.giphy.com/media/qkzFQqnHHOR3ram1ht/giphy.gif">
+</p>
+
 > Вы можете дополнительно использовать wc с выводом других команд, используя pipes (|).
 
 Например, вы можете перенаправить вывод команды ls на wc и, таким образом, что вы можете подсчитать общее количество файлов и подкаталогов в данной заданной директории.
@@ -373,10 +369,7 @@ wc -l avocado.txt apple.txt
 ls | wc -l
 ```
 > :mag_right: Возможно, вы заметили, что вывод команды wc состоит из имен файлов. Если вы просто хотите получить номер без имени файла, вы можете использовать его с командой cut и избавиться от имени файла из вывода.
----
-<!-- 
 
-<p align="center">
-<img src="">
-</p> -->
----
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/Screenshot%20from%202022-08-13%2005-53-04.png"> 
+</p>
