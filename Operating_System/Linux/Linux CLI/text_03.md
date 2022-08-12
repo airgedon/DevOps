@@ -181,10 +181,10 @@ awk ' /io/{print $0}' avocado.txt
 Мы получили строки, в которых содержатся слова, содержащие io.
 > Теперь предположим, что в файле есть дополнительный столбец department:
 
-<p align="center">
-![alt tex](https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/Screenshot%20from%202022-08-12%2013-00-40.png?raw=true)
-</p> 
+
  
+![alt tex](https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/Screenshot%20from%202022-08-12%2013-00-40.png?raw=true)
+
 Для поиска всей информации о людях, работающих в IT, нужно указать искомую строку между //:
 ```
 awk '/IT/' avocado.txt
