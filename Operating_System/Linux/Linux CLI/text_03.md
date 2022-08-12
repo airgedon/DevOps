@@ -98,13 +98,11 @@ awk '/regex pattern/{action}' avocado.txt
 ```
 awk '{print $0}' avocado.txt
 ```
----
-<!-- 
 
 <p align="center">
-<img src="">
-</p> -->
----
+<img src="https://media.giphy.com/media/bm6snpHxescq2w354w/giphy.gif">
+</p> 
+
 Если захотите добавить нумерацию строк, то нужно будет дополнить действие переменной NR:
 ```
 awk '{print NR,$0}' avocado.txt
@@ -127,13 +125,10 @@ awk '{print $1, $3}' avocado.txt
 ```
 > Здесь $1 представляет первое поле ввода (первый столбец), а $4 четвёртое. При этом они отделяются запятой, чтобы вывод разделялся пробелом и был более читаемым.
 - Для вывода последнего поля (последнего столбца) также можно использовать команду $NF, представляющую последнее поле записи:
----
-<!-- 
 
 <p align="center">
-<img src="">
-</p> -->
----
+<img src="https://media.giphy.com/media/DMIAWnC78IiNIycCZw/giphy.gif">
+
 Также можно указывать для вывода строку определённого столбца:
 ```
 awk '{print $1}' avocado.txt | head -1
