@@ -171,13 +171,10 @@ awk '! /g$/' avocado.txt
 ```
 awk ' /io/{print $0}' avocado.txt
 ```
----
-<!-- 
 
 <p align="center">
-<img src="">
-</p> -->
----
+<img src="https://media.giphy.com/media/xYkXkMHWujs2N7OppC/giphy.gif">
+
 Мы получили строки, в которых содержатся слова, содержащие io.
 > Теперь предположим, что в файле есть дополнительный столбец department:
 
