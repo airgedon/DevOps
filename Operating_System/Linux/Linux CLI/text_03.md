@@ -240,43 +240,36 @@ awk '$5 > 10 { print $0 }' avocado.txt
 ls | grep fruits
 ```
 Если команда grep ничего не вернула, значит искомого файла/папки не существует в данной директории.
----
-<!-- 
 
 <p align="center">
-<img src="">
-</p> -->
----
+<img src="https://media.giphy.com/media/OKEzmtiz6KhxzRq3iM/giphy.gif">
+</p> 
+
 > :mag_right: Если же нужно найти не одно слово, а словосочетание или целое предложение, то параметр команды grep должно быть выделено кавычками. Grep поддерживает как одинарные, так и двойные кавычки.
 ```
 ls | grep 'My Fruits'
 ```
 A также его можно использовать так:
 ```
-grep 'First Raw' avocado.txt
+grep 'apple tree' avocado.txt
 ```
 В этом примере мы вели поиск указанных в кавычках слов в файле avocado.txt и команда grep успешно справилась со своей задачей.
 
----
-<!-- 
-
 <p align="center">
-<img src="">
-</p> -->
----
+<img src="https://media.giphy.com/media/MqHMA5GWKBnWlgZ9lc/giphy.gif">
+</p> 
+
 > :mag_right: Команде grep можно передавать не один параметр, а несколько.
  
  Для этого перед каждым аргументом пишется ключ e. Эту команду система понимает, как "или-или" и выводит все вхождения указанных слов. Заметьте, что кавычками выделена только строка, которая содержит пробел. 
 ```
-grep -e 'First Raw' -e 'Fifth Raw' avocado.txt
+grep -e 'apple tree' -e 'green avocado' avocado.txt
 ```
----
-<!-- 
 
 <p align="center">
 <img src="">
-</p> -->
----
+</p> 
+
 # :bulb: Команды grep, egrep, fgrep, pgrep, zgrep
 
 >  Все эти версии всего лишь разные названия основной команды Grep.
