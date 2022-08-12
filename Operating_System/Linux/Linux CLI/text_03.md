@@ -176,7 +176,7 @@ awk ' /io/{print $0}' avocado.txt
 <img src="https://media.giphy.com/media/xYkXkMHWujs2N7OppC/giphy.gif">
 
 Мы получили строки, в которых содержатся слова, содержащие io.
-> Теперь предположим, что в файле есть дополнительный столбец department:
+> Теперь предположим, что в файле есть дополнительный столбец LOCATION:
 
 <p align="center" width="100%">
     <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/Screenshot%20from%202022-08-12%2013-37-54.png"> 
@@ -192,37 +192,38 @@ awk '/box/' avocado.txt
 ```
 awk '/box/{print $1, $2}' avocado.txt
 ```
----
-<!-- 
 
 <p align="center">
-<img src="">
-</p> -->
----
+<img src="https://media.giphy.com/media/1Rod8kw3rwebpj7l9j/giphy.gif">
+</p> 
+
 В этом случае отобразятся только первый и второй столбцы строк, содержащих box.
 - При поиске слов, содержащих конкретный шаблон, бывают случаи, когда требуется использовать экранирующий символ:
 ```
 awk '/home\/kitchen$/' avocado.txt
 ```
----
-<!-- 
 
 <p align="center">
 <img src="">
-</p> -->
----
+</p>
+
 при указании критериев поиска в ' // ', как это показывалось выше, мне пришлось использовать между N/A символ перехода \. В противном случае возникла бы ошибка.
+
+#### Добавим ещё один столбец "AMOUNT" 
+
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/Screenshot%20from%202022-08-12%2013-50-50.png"> 
+</p>
+
 > :mag_right: Если вы, предположим, захотите найти всю информацию о сотрудниках в возрасте до 40 лет, то нужно будет использовать оператор сравнения < так:
 ```
-awk '$3 <  40 { print $0 }' information.txt
+awk '$3 <  40 { print $0 }' avocado.txt
 ```
----
-<!-- 
 
 <p align="center">
 <img src="">
-</p> -->
----
+</p> 
+
 В выводе представлена информация о людях моложе 40.
 
 # :bulb: Команда «grep»
