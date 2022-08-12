@@ -138,13 +138,11 @@ awk '{print $1}' avocado.txt | head -1
 ```
 awk '{print $1}' avocado.txt | head -2
 ```
----
-<!-- 
-
+ 
 <p align="center">
-<img src="">
-</p> -->
----
+<img src="https://media.giphy.com/media/9VnaYOSYX5UHbBZM7O/giphy.gif">
+</p> 
+
 Вы можете выводить строку, начинающуюся с заданной буквы. Например:
 ```
 awk '/^O/' avocado.txt
