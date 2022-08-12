@@ -182,9 +182,9 @@ awk ' /io/{print $0}' avocado.txt
     <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/Screenshot%20from%202022-08-12%2013-00-40.png"> 
 </p>
 
-Для поиска всей информации о людях, работающих в IT, нужно указать искомую строку между //:
+Для поиска всей информации о фруктах, находящихся к примеру в box, нужно указать искомую строку между //:
 ```
-awk '/IT/' avocado.txt
+awk '/box/' avocado.txt
 ```
 > А что, если мы хотим увидеть только имена и фамилии сотрудников из IT?
 
