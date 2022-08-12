@@ -221,7 +221,7 @@ awk '$5 > 10 { print $0 }' avocado.txt
 ```
 
 <p align="center">
-<img src="">
+<img src="https://media.giphy.com/media/EHKWkfcFgmXrQ2WET8/giphy.gif">
 </p> 
 
 В выводе представлена информация о фруктах количество которых больше 40.
