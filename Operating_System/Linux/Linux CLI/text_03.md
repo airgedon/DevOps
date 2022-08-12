@@ -179,7 +179,7 @@ awk ' /io/{print $0}' avocado.txt
 > Теперь предположим, что в файле есть дополнительный столбец department:
 
 <p align="center" width="100%">
-    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/Screenshot%20from%202022-08-12%2013-00-40.png"> 
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/Screenshot%20from%202022-08-12%2013-37-54.png"> 
 </p>
 
 Для поиска всей информации о фруктах, находящихся к примеру в box, нужно указать искомую строку между //:
@@ -202,7 +202,7 @@ awk '/box/{print $1, $2}' avocado.txt
 В этом случае отобразятся только первый и второй столбцы строк, содержащих box.
 - При поиске слов, содержащих конкретный шаблон, бывают случаи, когда требуется использовать экранирующий символ:
 ```
-awk '/N\/A$/' avocado.txt
+awk '/home\/kitchen$/' avocado.txt
 ```
 ---
 <!-- 
