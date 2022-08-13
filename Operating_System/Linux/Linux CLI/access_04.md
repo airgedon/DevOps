@@ -336,8 +336,15 @@ sudo chmod a+r avocado.txt
 ```
 sudo chmod -R a+r imya_papki
 ```
----
----
+
+<p align="center">
+<img src="https://media.giphy.com/media/XSBylPjc3nyTnfVAgu/giphy.gif">
+</p>
+
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-13%2010-07-28.png"> 
+</p>
+
 # :bulb: Команда «passwd»
 > Команда passwd используется для изменения паролей пользователей
 
