@@ -115,12 +115,12 @@ sudo chown userName avocado.txt
 > До
 ```
 total 0
--rw-r--r-- 1 `root` root 0 авг 13 09:36 avocado.txt
+-rw-r--r-- 1 root root 0 авг 13 09:36 avocado.txt
 ```
 > После
 ```
 total 0
--rw-r--r-- 1 `devops` root 0 авг 13 09:36 avocado.txt
+-rw-r--r-- 1 devops root 0 авг 13 09:36 avocado.txt
 ```
 > Как мы видим  владелец (пользователь) файла изменился с `root` на `devops`
 ---
@@ -136,12 +136,12 @@ sudo chgrp groupName avocado.txt
 > До
 ```
 total 0
--rw-r--r-- 1 devops `root` 0 авг 13 09:36 avocado.txt
+-rw-r--r-- 1 devops root 0 авг 13 09:36 avocado.txt
 ```
 > После
 ```
 total 0
--rw-r--r-- 1 devops `devops` 0 авг 13 09:36 avocado.txt
+-rw-r--r-- 1 devops devops 0 авг 13 09:36 avocado.txt
 ```
 
 > Теперь и группа файла изменилась с `root` на `devops` (можно изменить на любую группу созданную раннее вами)
@@ -268,11 +268,11 @@ find /ваш_путь -type f -exec chmod 644 {} \;
 > До
 ```
 total 0
-`-rw-r--r-- 1` sysadmin sudo 0 авг 13 09:36 avocado.txt
+-rw-r--r-- 1 sysadmin sudo 0 авг 13 09:36 avocado.txt
 ```
 > После
 ```
-`-rwxr-xr-x 1` sysadmin sudo 0 авг 13 09:36 avocado.txt
+-rwxr-xr-x 1 sysadmin sudo 0 авг 13 09:36 avocado.txt
 ```
 - ### Назначение прав доступа буквами
 
