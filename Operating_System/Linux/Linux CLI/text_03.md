@@ -183,7 +183,7 @@ awk ' /med/{print $0}' avocado.txt
 > Теперь предположим, что в файле есть дополнительный столбец LOCATION:
 
 <p align="center" width="100%">
-    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/Screenshot%20from%202022-08-12%2013-37-54.png"> 
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-12%2013-37-54.png"> 
 </p>
 
 Для поиска всей информации о фруктах, находящихся к примеру в box, нужно указать искомую строку между //:
@@ -216,7 +216,7 @@ awk '/home\/kitchen$/' avocado.txt
 #### Добавим ещё один столбец "AMOUNT" 
 
 <p align="center" width="100%">
-    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/Screenshot%20from%202022-08-12%2013-50-50.png"> 
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-12%2013-50-50.png"> 
 </p>
 
 > :mag_right: Если вы, предположим, захотите найти всю информацию о фруктов в количестве от 10 штук, то нужно будет использовать оператор сравнения > так:
@@ -283,7 +283,7 @@ grep -E 'p|p' avocado.txt
 ```
 
 <p align="center" width="100%">
-    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/Screenshot%20from%202022-08-13%2005-15-22.png"> 
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-13%2005-15-22.png"> 
 </p>
 
 
@@ -371,5 +371,5 @@ ls | wc -l
 > :mag_right: Возможно, вы заметили, что вывод команды wc состоит из имен файлов. Если вы просто хотите получить номер без имени файла, вы можете использовать его с командой cut и избавиться от имени файла из вывода.
 
 <p align="center" width="100%">
-    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/Screenshot%20from%202022-08-13%2005-53-04.png"> 
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-13%2005-53-04.png"> 
 </p>
