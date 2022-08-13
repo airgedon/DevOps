@@ -105,14 +105,47 @@ groupdel [OPTIONS] GROUPNAME
 ```
 sudo chown userName avocado.txt
 ```
-> :mag_right: В данном примере мы присвоили файл avocado.txt пользователю userName.
+
+<p align="center">
+<img src="https://media.giphy.com/media/kKgci3hjheIe2RSp4X/giphy.gif">
+</p>
+
+> :mag_right: В данном примере мы присвоили файл avocado.txt пользователю devops.
+
+> До
+```
+total 0
+-rw-r--r-- 1 root root 0 авг 13 09:36 avocado.txt
+```
+> После
+```
+total 0
+-rw-r--r-- 1 devops root 0 авг 13 09:36 avocado.txt
+```
+> Как мы видим  владелец (пользователь) файла изменился с `root` на `devops`
+---
 
 Если вы хотите поменять только группу, то можно воспользоваться командой chgrp:
 ```
 sudo chgrp groupName avocado.txt
 ```
----
----
+<p align="center">
+<img src="https://media.giphy.com/media/2OQ0HVRcsDU4WlA9zI/giphy.gif">
+</p>
+
+> До
+```
+total 0
+-rw-r--r-- 1 devops root 0 авг 13 09:36 avocado.txt
+```
+> После
+```
+total 0
+-rw-r--r-- 1 devops devops 0 авг 13 09:36 avocado.txt
+```
+
+> Теперь и группа файла изменилась с `root` на `devops` (можно изменить на любую группу созданную раннее вами)
+
 Для того чтобы не вводить 2 разные команды делают так:
 ```
 sudo chown userName:groupName avocado.txt
@@ -122,12 +155,15 @@ sudo chown userName:groupName avocado.txt
 ```
 sudo chown имя_владельца:имя_группы avocado.txt
 ```
+
+<p align="center">
+<img src="https://media.giphy.com/media/FTJ0e6mFlH7AejsZqX/giphy.gif">
+</p>
+
 > Если вам нужно поменять в директории владельца и группу, а там множество файлов и папок тогда используйте ключ -R:
 ```
 sudo chown -R userName:groupName /home/sysadmin/fruits/
 ```
----
----
 # :bulb: Команда «chmod»
 
 <details>
