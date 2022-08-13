@@ -105,7 +105,7 @@ groupdel [OPTIONS] GROUPNAME
 ```
 sudo chown userName avocado.txt
 ```
-> :mag_right: В данном примере мы присвоили файл text.txt пользователю userName.
+> :mag_right: В данном примере мы присвоили файл avocado.txt пользователю userName.
 
 Если вы хотите поменять только группу, то можно воспользоваться командой chgrp:
 ```
