@@ -36,8 +36,13 @@ nmon
 </p>
 
 > :mag_right: клавиша `q` для выхода 
----
----
+                      `h` для информации в использовании
+                      
+
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-15%2014-58-30.png"> 
+</p>
+
 # :bulb: Команда «vmstat»
 
 > Команда vmstat в Linux выводит статистику использования виртуальной памяти. 
