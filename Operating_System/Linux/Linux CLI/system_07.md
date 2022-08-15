@@ -25,6 +25,12 @@ sudo apt-get install nmon
 ```
 nmon
 ```
+
+<p align="center">
+<img src="https://media.giphy.com/media/SJGIbBvXN9SGZPrpRo/giphy.gif">
+</p>
+
+> :mag_right: клавиша `q` для выхода 
 ---
 ---
 # :bulb: Команда «vmstat»
@@ -36,7 +42,8 @@ nmon
 ```
 vmstat
 ```
----
----
+<p align="center">
+<img src="https://media.giphy.com/media/AQV1spGX0BHFnTZ7xm/giphy.gif">
+</p>
 
 В первом отчете приведены средние значения с момента последней перезагрузки. В дополнительных отчетах содержится информация с выборкой за определенный промежуток времени. Отчеты о процессе и памяти являются мгновенными в любом случае.
