@@ -235,15 +235,19 @@ sudo apt-get install net-tools
 ```
 netstat
 ```
----
----
+
+<p align="center">
+<img src="https://media.giphy.com/media/K2Nl2tjvXPCWi5cWME/giphy.gif">
+</p>
+
 
 Эту команду также можно использовать с дополнительными параметрами.
 ```
 netstat -tulpn
 ```
----
----
+<p align="center">
+<img src="https://media.giphy.com/media/SN87wQWM0uKF2PGf01/giphy.gif">
+</p>
  
 <details>
 <summary><b>More details</b></summary>
