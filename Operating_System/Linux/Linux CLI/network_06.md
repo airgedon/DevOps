@@ -1,4 +1,7 @@
-# Работа с сетью
+<h1 align="center">
+Работа с сетью
+</h1> 
+
 * Работа с сетью:  nslookup, ping, nmap, netstat, dig,  iptables, traceroute,  ip...
 ---
 # :bulb: Команда «nslookup»
