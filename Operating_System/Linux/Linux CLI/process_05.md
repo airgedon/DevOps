@@ -15,8 +15,11 @@ ps
 ```
 ps -f
 ```
----
----
+
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-15%2011-00-27.png"> 
+</p>
+
 <details>
 <summary><b>More details</b></summary>
 - UID - пользователь, от имени которого запущен процесс;
