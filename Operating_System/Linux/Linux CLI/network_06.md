@@ -180,31 +180,47 @@ sudo nmap -sV 10.121.40.9
 <img src="https://media.giphy.com/media/6zCCuYUIn7au9eqgEu/giphy.gif">
 </p>
 
-> На нашей машине запущен ftp, а поэтому мы можем попытаться рассмотреть эту службу подробнее с помощью стандартных скриптов nmap. Скрипты позволяют проверить порт более детально, найти возможные уязвимости. Для этого используйте опцию -sC и -p чтобы задать порт:
+> На нашей машине запущен http, а поэтому мы можем попытаться рассмотреть эту службу подробнее с помощью стандартных скриптов nmap. Скрипты позволяют проверить порт более детально, найти возможные уязвимости. Для этого используйте опцию -sC и -p чтобы задать порт:
 
 ```
-sudo nmap -sC 192.168.56.102 -p 21
+sudo nmap -sC 10.121.40.9 -p 80
 ```
+
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-15%2014-15-58.png"> 
+</p>
+
 > Мы выполняли скрипт по умолчанию, но есть еще и другие скрипты, например, найти все скрипты для ftp вы можете командой:
 ```
-sudo find /usr/share/nmap/scripts/ -name '*.nse' | grep ftp
+sudo find /usr/share/nmap/scripts/ -name '*.nse' | grep http
 ```
+
+
+<p align="center">
+<img src="https://media.giphy.com/media/RtYh1oUQDvLkEv7gBA/giphy.gif">
+</p>
+
 Затем попытаемся использовать один из них, для этого достаточно указать его с помощью опции --script. Но сначала вы можете посмотреть информацию о скрипте:
 ```
-sudo nmap --script-help ftp-brute.nse
+sudo nmap --script-help http-brute.nse
 ```
-Этот скрипт будет пытаться определить логин и пароль от FTP на удаленном узле. Затем выполните скрипт:
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-15%2014-29-57.png"> 
+</p>
+
+<!-- Этот скрипт будет пытаться определить логин и пароль от FTP на удаленном узле. Затем выполните скрипт: 
 ```
 sudo nmap --script ftp-brute.nse 192.168.1.1 -p 21
 ```
-> :mag_right: В результате скрипт подобрал логин и пароль, admin/admin. Вот поэтому не нужно использовать параметры входа по умолчанию.
+> :mag_right: В результате скрипт подобрал логин и пароль, admin/admin. Вот поэтому не нужно использовать параметры входа по умолчанию.-->
 
 Также можно запустить утилиту с опцией -A, она активирует более агрессивный режим работы утилиты, с помощью которого вы получите большую часть информации одной командой:
 ```
 sudo nmap -A 192.168.1.1
 ```
----
----
+<p align="center">
+<img src="https://media.giphy.com/media/A6ambVtllB9GYEkEEg/giphy.gif">
+</p>
 
 # :bulb: Команда «netstat»
 
