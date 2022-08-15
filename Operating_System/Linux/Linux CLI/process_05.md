@@ -52,8 +52,10 @@ sudo pacman -Syu htop
 ```
 htop
 ```
----
----
+
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-15%2011-04-03.png"> 
+</p>
 
 <details>
 <summary><b>More details</b></summary>
@@ -70,9 +72,7 @@ htop
 * Может показывать потоки процессов пользователя (клавиша H) и потоки ядра (клавиша K);
 * Использует CSI коды для разукрашивания выводимого текста.
  </details>
- 
----
----
+
 
 # :bulb: Команда «lsof»
 
@@ -83,16 +83,19 @@ htop
 ```
 lsof /dev/null
 ```
+
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-15%2011-09-53.png"> 
+</p>
+
 Список всех открытых файлов в Linux:
----
----
+
 Чтобы вывести список файлов, открытых для конкретного пользователя, выполните следующую команду: замените **devops** вашим именем пользователя.
 ```
 lsof -u devops
 ```
 Список файлов, открытых пользователем:
----
----
+
 > :mag_right: Еще одно важное использование lsof - выяснение процесса прослушивания определенного порта. Например, определите процесс, прослушивающий порт 80, с помощью следующей команды.
 
 ```
@@ -100,10 +103,9 @@ sudo lsof -i TCP:80
 ```
 Процессы, прослушивающие порт:
 
----
----
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-15%2011-06-18.png"> 
+</p>
+
 
 > :warning: Примечание: поскольку lsof читает память ядра при поиске открытых файлов, быстрые изменения в памяти ядра могут привести к непредсказуемым результатам. Это один из основных недостатков использования команды lsof.
-
----
----
