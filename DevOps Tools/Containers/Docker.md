@@ -1,5 +1,33 @@
-# DOCKER
-[Docs](https://docs.docker.com/)
+<h1 align="center">
+:earth_africa: DOCKER
+</h1>  
+
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?color=3CBD3A&width=380&height=45&lines=Что+такое+Docker+?&center=true"></a>
+</p>
+
+> Docker - это по сути маленькие виртуальные машины,изолированные среды и в этих изолированных средых мы можем запускать разные проекты на рахных языках программирования
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## SET UP
 ```
