@@ -50,7 +50,7 @@ sudo systemctl status docker
 > клавиша `q` для выхода
 
 <h2 align="center">
-Настройка работы команды `docker` без `sudo` 
+Настройка работы команды docker без sudo 
 </h2>
 
 ```
