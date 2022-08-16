@@ -62,12 +62,14 @@ su - ${USER}
 ```
 id -nG
 ```
->output:    your_username sudo docker
+> вывод:    your_username sudo docker
 ```
 sudo usermod -aG docker username
 ```
-
-## Install docker-compose:
+<h2 align="center">
+Установка docker-compose
+</h2>
+ 
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
