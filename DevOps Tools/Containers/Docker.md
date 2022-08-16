@@ -48,8 +48,11 @@ sudo systemctl status docker
 </p>
 
 > клавиша `q` для выхода
----
-## Configuring the Docker command without sudo (optional):
+
+<h2 align="center">
+Настройка работы команды `docker` без `sudo` 
+</h2>
+
 ```
 sudo usermod -aG docker ${USER}
 ```
