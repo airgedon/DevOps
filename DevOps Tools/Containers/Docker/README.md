@@ -11,3 +11,6 @@ Docker - это по сути маленькие виртуальные маши
 </p>
 
 
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/docker-cover.png"> 
+</p>
