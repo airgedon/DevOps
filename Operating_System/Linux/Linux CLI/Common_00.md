@@ -125,7 +125,7 @@ history -c
 * `CTRL` + `SHIFT` + `C` - копировать, также может закончить процесс запущенной команды
 * `CTRL` + `SHIFT` + `V` - вставлять
 * `CTRL` + `Z` - может на время остановить процесс запущенной команды 
-  * Вернуться к процессу можно с сочетанием клавиш `fg`
+  * вернуться к процессу можно с сочетанием клавиш `fg`
 
 > Чтобы поменять настройки клавиш:
  
@@ -136,4 +136,22 @@ history -c
 
 <p align="center">
 <img src="https://media.giphy.com/media/7lnqUa7X1u6zMVvr5Q/giphy.gif">
+</p>
+
+## Поиск файлов по всей Операционной системе
+
+> Для этого устанавливаем команду `locate`
+```
+sudo apt-get install mlocate
+```
+> Обновляем базу данных
+```
+sudo updatedb
+```
+> далее
+```
+locate [название папки или файла]
+```
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-16%2012-55-42.png"> 
 </p>
