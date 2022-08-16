@@ -177,18 +177,5 @@ docker kill $(docker ps -q)
 ```
 docker rmi -f $(docker images -q)         
 ```
-___
-```
-docker exec -it 4a23c4bdaae3 python3 manage.py createsuperuser
-```
-```
-docker exec -it 4a23c4bdaae3 python3 manage.py migrate
-```
-```
-docker exec -it 4a23c4bdaae3 python3 manage.py makemigrations
-```
-```
-docker exec -it 4a23c4bdaae3 python3 manage.py createsuperuser
-```
 
 
