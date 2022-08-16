@@ -54,6 +54,10 @@ id -nG
 ```
 sudo usermod -aG docker username
 ```
+<p align="center">
+<img src="https://media.giphy.com/media/3AaMCAW89KWyX9OUS5/giphy.gif">
+</p>
+
 <h2 align="center">
 Установка docker-compose
 </h2>
@@ -67,6 +71,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 docker-compose -v
 ```
+
+<p align="center" width="100%">
+    <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-16%2014-36-32.png"> 
+</p>
+
 > to stop docker-compose
 ```
 docker-compose stop
