@@ -155,3 +155,13 @@ locate [название папки или файла]
 <p align="center" width="100%">
     <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-16%2012-55-42.png"> 
 </p>
+
+## Дополнительная информация о командах
+
+```
+man [команда]
+```
+
+<p align="center">
+<img src="https://media.giphy.com/media/0SOZOGH9cEQIFBki3A/giphy.gif">
+</p>
