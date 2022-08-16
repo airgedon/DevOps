@@ -76,7 +76,4 @@ docker-compose -v
     <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG/Screenshot%20from%202022-08-16%2014-36-32.png"> 
 </p>
 
-> to stop docker-compose
-```
-docker-compose stop
-```
+
