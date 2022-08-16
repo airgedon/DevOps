@@ -1,6 +1,6 @@
-<h1 align="center">
-Установка
-</h1>
+<h2 align="center">
+Установка Docker
+</h2>
 
 ```
 sudo apt-get update && apt-get upgrade
@@ -59,7 +59,7 @@ sudo usermod -aG docker username
 </p>
 
 <h2 align="center">
-Установка docker-compose
+Установка Docker-Compose
 </h2>
  
 ```
