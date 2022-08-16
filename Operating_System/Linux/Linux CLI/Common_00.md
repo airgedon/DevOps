@@ -94,8 +94,18 @@ history
 <img src="https://media.giphy.com/media/L9gRhnrrCZQyBgpylp/giphy.gif">
 </p>
 
-> Чтобы очистить эту историю, нам потребуется ключ `-c` `- clear`
 
+## Поиск по очень старым командам
+
+> `CTRL` + `R` поиск по очень старым командам ( переключение также происходит с сочетанием клавиш `CTRL`+`R`) .
+
+<p align="center">
+<img src="https://media.giphy.com/media/UqQ4dQhrlhT5Mf7K7H/giphy.gif">
+</p>
+
+>  Чтобы очистить историю в `history`, нам потребуется ключ `-c` `- clear`
+
+> :warning: Лучше использовать эту команду только в крайнем случае, потому что после поиск по очень старым командам ( `CTRL`+`R`) не будет работать.
 ```
 history -c
 ```
@@ -103,3 +113,6 @@ history -c
 <p align="center">
 <img src="https://media.giphy.com/media/TFNDWnGZ7Pl9zwVTjz/giphy.gif">
 </p>
+
+
+
