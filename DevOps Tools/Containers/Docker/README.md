@@ -1,5 +1,5 @@
 <h1 align="center">
-:earth_africa: DOCKER
+DOCKER
 </h1>  
 
 <p align="center">
