@@ -1,5 +1,5 @@
 <h2 align="center">
-Установка Docker
+:earth_africa: Установка Docker
 </h2>
 
 ```
