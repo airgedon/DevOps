@@ -6,30 +6,14 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=3CBD3A&width=380&height=45&lines=Что+такое+Docker+?&center=true"></a>
 </p>
 
-> Docker - это по сути маленькие виртуальные машины,изолированные среды и в этих изолированных средых мы можем запускать разные проекты на рахных языках программирования
+<p align="center">
+Docker - это по сути маленькие виртуальные машины, изолированные среды и в этих изолированных средах мы можем запускать разные проекты на разных языках программирования на одном сервере
+</p>
 
+<h2 align="center">
+Установка
+</h2>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## SET UP
 ```
 sudo apt-get update && apt-get upgrade
 ```
@@ -51,15 +35,19 @@ apt-cache policy docker-ce
 ```
 sudo apt install docker-ce
 ```
-> Optional 
+<h3 align="center">
+Готово, Docker установлен
+</h3>
+
+#### Проверяем статус докера
 ```
 sudo systemctl status docker
-
-systemctl start docker
-
-systemctl enable docker
 ```
+<p align="center">
+<img src="https://media.giphy.com/media/zFbzovmEHorfmvQmIR/giphy.gif">
+</p>
 
+> клавиша `q` для выхода
 ---
 ## Configuring the Docker command without sudo (optional):
 ```
