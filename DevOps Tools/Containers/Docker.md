@@ -190,13 +190,5 @@ docker exec -it 4a23c4bdaae3 python3 manage.py makemigrations
 ```
 docker exec -it 4a23c4bdaae3 python3 manage.py createsuperuser
 ```
----
-[Steps for Deploying a Static HTML Site with Docker and Nginx](https://www.dailysmarty.com/posts/steps-for-deploying-a-static-html-site-with-docker-and-nginx)
----
-> in docker-compose.yml (maybe to use several django containers)
-```
-# under volumes
-ports:
-  - 5435:5432
-```
+
 
