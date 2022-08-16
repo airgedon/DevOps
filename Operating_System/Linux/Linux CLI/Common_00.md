@@ -28,7 +28,7 @@ Linux CLI
 </h1>
 
 
-- В Оперрационной Системе Linux (Ubuntu) нажимаете на сочетание клавиш `CTRL` + `ALT` + `T` чтобы открыть терминал
+В Оперрационной Системе Linux (Ubuntu) нажимаете на сочетание клавиш `CTRL` + `ALT` + `T` чтобы открыть терминал
 
 <p align="center">
 <img src="https://media.giphy.com/media/taVaCpEtQ4B4EPAv66/giphy.gif">
@@ -43,7 +43,7 @@ Linux CLI
 Внешний вид может отличаться, но команды будут работать так же
 </p>
 
-- Обновляем все пакеты в OS (Operating System) командами
+## Обновляем все пакеты в OS (Operating System) командами
 
 > сначала введем в терминал следующее
 ```
@@ -53,6 +53,53 @@ sudo apt-get update -y
 ```
 sudo apt-get upgrade -y
 ```
-> :warning: Зачем прописывать в начале команду `sudo` ? Sudo означает `Super User DO`. Это важная для понимания утилита, она позволяет временно поднимать привилегии и выполнять задачи администрирования системы. Суть в том, что в каждом дистрибутиве Linux есть пользователь root, имеющий максимальные права
+> :warning: Зачем прописывать в начале команду `sudo` ? Это важная для понимания утилита, она позволяет временно поднимать привилегии и выполнять задачи администрирования системы. Суть в том, что в каждом дистрибутиве Linux есть пользователь root, имеющий максимальные права. Sudo означает `Super User DO`. 
+
+> :warning: После команды с `sudo` нужно вводить пароль.
+
+## Очищаем терминал
+
+> Можно командой `clear`
+
+<p align="center">
+<img src="https://media.giphy.com/media/iOd6MRE0Ae89El7Olh/giphy.gif">
+</p>
+
+> Или сочетанием клавиш `CTRL` + `L`
 
 
+
+<p align="center">
+<img src="https://media.giphy.com/media/hmllvxajI4DdJK47Jv/giphy.gif">
+</p>
+
+> Разница между ними в том что сочетанием клавиш `CTRL` + `L` можно проскролить вверх и просмотреть прошлую историю, а командой `clear` нет.
+
+## История прошлых команд
+
+```
+history
+```
+<p align="center">
+<img src="https://media.giphy.com/media/5ReUuY9pXGWJPm0i1P/giphy.gif">
+</p>
+
+<p align="center">
+Как мы видим, это все команды которые были введены и запущенны в терминале
+</p>
+
+> Команда History  отображает команды с цифрами, чтобы не копировать и не вставлять их,  можно всего лишь написать перед номером команды " ! ". 
+
+<p align="center">
+<img src="https://media.giphy.com/media/L9gRhnrrCZQyBgpylp/giphy.gif">
+</p>
+
+> Чтобы очистить эту историю, нам потребуется ключ `-c` `- clear`
+
+```
+history -c
+```
+
+<p align="center">
+<img src="https://media.giphy.com/media/TFNDWnGZ7Pl9zwVTjz/giphy.gif">
+</p>
