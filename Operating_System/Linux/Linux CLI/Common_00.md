@@ -27,8 +27,10 @@ Linux CLI
 :earth_africa:  Советы перед началом
 </h1>
 
+ 
+У нас здесь Операционная система  Linux Ubuntu 2022, чтобы открыть терминал используется сочетание клавиш `CTRL` + `ALT` + `T` 
 
-В Оперрационной Системе Linux (Ubuntu) нажимаете на сочетание клавиш `CTRL` + `ALT` + `T` чтобы открыть терминал
+> :mag_right: У каждого дистрибутива Linux свой интерфейс, и команды могут слегка отличатся, но все команды принцип работы всех команд одинаковый
 
 <p align="center">
 <img src="https://media.giphy.com/media/taVaCpEtQ4B4EPAv66/giphy.gif">
@@ -124,3 +126,14 @@ history -c
 * `CTRL` + `SHIFT` + `V` - вставлять
 * `CTRL` + `Z` - может на время остановить процесс запущенной команды 
   * Вернуться к процессу можно с сочетанием клавиш `fg`
+
+> Чтобы поменять настройки клавиш:
+ 
+<p align="center">
+<img src="https://media.giphy.com/media/C8IO9ohmzGAEJpuX2J/giphy.gif">
+</p>
+
+
+<p align="center">
+<img src="https://media.giphy.com/media/7lnqUa7X1u6zMVvr5Q/giphy.gif">
+</p>
