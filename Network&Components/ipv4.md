@@ -19,7 +19,7 @@
     <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG_2/Screenshot%20from%202022-09-05%2010-58-30.png"> 
 </p>
 
-:mag_right: Где указан inet - это ipv4 адрес [ 192.168.30.28 ]
+:mag_right:  Где указан inet - это ipv4 адрес [ 192.168.30.28 ]
 
 ---
 * ### IPv6 
@@ -30,7 +30,7 @@
     <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG_2/Screenshot%20from%202022-09-05%2010-58-37.png"> 
 </p>
 
-:mag_right: Где указан inet6 - это ipv6 адрес [ fe80::6f7a:8269:9a3b:2aba ]
+:mag_right:  Где указан inet6 - это ipv6 адрес [ fe80::6f7a:8269:9a3b:2aba ]
  
 > Зачем нам нужен IPv6 ?
 
