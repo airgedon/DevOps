@@ -4,19 +4,33 @@
 
 > :mag_right:  Что такое IP address (Internet Protocol address ) ? У каждого устройства есть свой уникальный адрес в Интернете или локальной сети, этот уникальный адрес и называется IP address
 
+<p align="center">
+Интернет-протокол или IP-адрес является основным протоколом связи для передачи датаграмм и позволяет соединять различные устройства по всему миру и эффективно создавать сеть, которую мы называем интернетом. 
+</p>
+
+<h3 align="center">
 Есть два вида IP адреса:
-* IPv4
-* IPv6
+</h3>
 
-### IPv4 - Internet Protocol version 4
-
+* ### IPv4 
+> IPv4 ( Internet Protocol version 4 ) - четвёртая версия интернет-протокола (IP). Первая широко используемая версия.
  
 <p align="center" width="100%">
     <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG_2/Screenshot%20from%202022-09-05%2010-58-30.png"> 
 </p>
 
-### IPv4 - Internet Protocol version 6
+:mag_right: Где указан inet - это ipv4 адрес [ 192.168.30.28 ]
+
+---
+* ### IPv6 
+
+> IPv6 является последней версией IP и представляет собой постепенное обновление протокола IPv4. По сути, IPv6 обеспечивает полную передачу данных по нескольким IP-сетям, придерживаясь принципов проектирования, разработанных в предыдущей версии протокола.
 
 <p align="center" width="100%">
     <img src="https://github.com/airgedon/DevOps/blob/main/Operating_System/Linux/Linux%20CLI/PNG_2/Screenshot%20from%202022-09-05%2010-58-37.png"> 
 </p>
+
+:mag_right: Где указан inet6 - это ipv6 адрес [ fe80::6f7a:8269:9a3b:2aba ]
+ 
+> Зачем нам нужен IPv6 ?
+---
