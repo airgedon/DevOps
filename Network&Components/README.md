@@ -1,5 +1,5 @@
 <h1 align="center">
-Сеть и компоненты
+:earth_africa: Сеть и компоненты
 </h1>  
   
 > Plan:
